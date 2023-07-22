@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <!-- Header Nav-Bar -->
+
+        <nav>
+
+            <div class="left-nav">
+                <div class="side-icons">
+                    <img src="icons/bars.svg" alt="Bars">
+                </div>
+                <div class="logo">
+                    <img src="images/youtube-logo.png" alt="youtube-logo">
+                </div>
+
+            </div>
+            <div class="middle-nav">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <img class="mic" src="icons/mic.svg" alt="mic">
+            </div>
+            <div class="right-nav">
+                <img src="icons/video-add.svg" alt="video">
+                <!-- <img src="icons/dot-grid.svg" alt="grid"> -->
+                <i id="bell" class="fa-regular fa-bell fa-xl" style="color: #000000; cursor: pointer;"></i>
+                <i><img src="images/avatar.png" alt="avatar"></i>
+            </div>
+
+        </nav>
+
+
+    </div>
+
+    <div class="content-container">
+
+        <!-- Side Icons Container -->
+
+        <aside>
+
+            <div class="side-icons home">
+                <img src="icons/home.svg" alt="Home">
+                <span>Home</span>
+            </div>
+
+            <div class="side-icons" id="shorts">
+                <img src="images/YouTube_Shorts.png" alt="shorts">
+                <span>Shorts</span>
+            </div>
+
+            <div class="side-icons">
+                <img src="icons/video-gallary.svg" alt="gallary">
+                <span>Subscriptions</span>
+            </div>
+                
+            <!-- Divider -->
+
+            <div style="background-color: rgba(128, 128, 128, 0.31);height: 2px;">
+            </div>
+
+            <div class="side-icons">
+                <img src="icons/video-library.svg" alt="library">
+                <span>Library</span>
+            </div>
+            <div class="side-icons">
+                <img src="icons/history.png" alt="library">
+                <span>History</span>
+            </div>
+            <div class="side-icons">
+                <img src="icons/your-videos.png" alt="library">
+                <span>Your Videos</span>
+            </div>
+            <div class="side-icons">
+                <i class="fa-sharp fa-regular fa-clock fa-lg" style="color: #000000;"></i>
+                <span>Watch Later</span>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-scissors fa-lg" style="color: #000000;"></i>
+                <span>Your Clips</span>
+            </div>
+            <div class="side-icons">
+                <i class="fa-solid fa-chevron-down fa-lg"></i>
+                <span>Show More</span>
+            </div>
+
+            <!-- Divider -->
+
+            <div style="background-color: rgba(128, 128, 128, 0.31);height: 2px;">
+            </div>
+
+        </aside>
+
+        <!-- Youtube Tags -->
+
+        <div class="tags">
+            <ul>
+                <li id="dark"><a href="#">All</a></li>
+                <li class="light"><a href="#">Mixes</a></li>
+                <li class="light"><a href="#">Crypto</a></li>
+                <li class="light"><a href="#">HTML</a></li>
+                <li class="light"><a href="#">CSS</a></li>
+                <li class="light"><a href="#">Javascript</a></li>
+                <li class="light"><a href="#">Live</a></li>
+                <li class="light"><a href="#">Bolywood</a></li>
+                <li class="light"><a href="#">Drama</a></li>
+                <li class="light"><a href="#">Music</a></li>
+                <li class="light"><a href="#">computer Science</a></li>
+                <li class="light"><a href="#">Weather Forecasting</a></li>
+                <!-- <li class="light"><i class="fa-duotone fa-square-chevron-right fa-lg" style="--fa-primary-color: #000000; --fa-secondary-color: #ffffff;"></i></li> -->
+
+            </ul>
+        </div>
+
+        <!-- Youtube Content container -->
+
+        <main>
+
+            <!-- Main Ko Grid banana hai -->
+
+            <!-- Top Video Container -->
+
+            <div class="video-container">
+
+                <div class="card"><img src="images/img1.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (1).jpg" alt="">
+                        <h4 class="tittle">Top 5 BCA Govt. Colleges! Best BCA Goverment Colleges Fees,
+                            Addmission...</h4>
+                    </div>
+                    <p class="channelname">BCA fundas by Sunstone</p>
+                    <div class="views">1.9K views . 4 hours ago</div>
+                </div>
+
+                <div class="card"><img src="images/img2.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (2).jpg" alt="">
+                        <h4 class="tittle">Tere Vasste | Zara Hatke Zara Bachke | vicky Kaushal, Sala Ali Khan,
+                            Varun J,...</h4>
+                    </div>
+                    <p class="channelname">Saregama Music</p>
+                    <div class="views">63M views . 3 weeks ago</div>
+                </div>
+
+                <div class="card"><img src="images/img3.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (3).jpg" alt="">
+                        <h4 class="tittle">#1.1 LIFE TIMER | 10 HTML CSS JAVASCRIPT Practice Projects for...
+                        </h4>
+                    </div>
+                    <p class="channelname">Do Some Coding</p>
+                    <div class="views">8.4K views . 11 months ago</div>
+                </div>
+
+                <div class="card"><img src="images/img4.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (4).jpg" alt="">
+                        <h4 class="tittle">Ik Mulaqaat - Dream Girl | Ayushman Khurrana, Nushrat Bharucha | Meet
+                            Br...</h4>
+                    </div>
+                    <p class="channelname">Zee Music Comp;any</p>
+                    <div class="views">329M views . 3 years ago</div>
+                </div>
+
+
+                <div class="card"><img src="images/img5.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (5).jpg" alt="">
+                        <h4 class="tittle">How i Started Coding From 0 And Cracked Microsoft! | My Coding...
+                        </h4>
+                    </div>
+                    <p class="channelname">Nishant Chahar</p>
+                    <div class="views">137K views . 3 weeks ago</div>
+                </div>
+
+                <div class="card"><img src="images/img6.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (6).jpg" alt="">
+                        <h4 class="tittle">MY Name is Lucky (4k) (Bhale Bhale Magadivoy) - Nani Superhihit
+                            Romantic...</h4>
+                    </div>
+                    <p class="channelname">Goldmines Telefilms</p>
+                    <div class="views">3.2M views . 6 days ago</div>
+                </div>
+
+            </div>
+
+            <!-- Shorts Video Container -->
+
+            <div class="shorts-grid">
+
+                <div class="shorts-top">
+                    <div class="left">
+                        <img src="images/shorts/shorts logo.webp" alt="shorts logo">
+                        <span>Shorts</span>
+                    </div>
+                    <span class="right" style="font-size:20px; cursor: pointer;">X</span>
+                </div>
+                <div class="shorts-video">
+                    <div class="shorts shorts1">
+                        <img src="images/shorts/shorts1.webp" alt="shorts1">
+                        <div class="shorts-content">
+                            <h4>Aisa Help Kon Karta hai 😂😛🤪 #joytimisty...</h4>
+                            <div class="shorts-views">393k views</div>
+                        </div>
+                    </div>
+                    <div class="shorts shorts2">
+                        <img src="images/shorts/shorts2.webp" alt="shorts2">
+                        <div class="shorts-content">
+                            <h4>When You Caught her cheating 😢 #prank...</h4>
+                            <div class="shorts-views">399K views</div>
+                        </div>
+                    </div>
+                    <div class="shorts shorts3">
+                        <img src="images/shorts/shorts3.webp" alt="shorts3">
+                        <div class="shorts-content">
+                            <div class="shorts-content">
+                                <h4>Vikalp Ne Udaya Nakli Bane Artist Ka Mazza...</h4>
+                                <div class="shorts-views">1.3M views</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shorts shorts4">
+                        <img src="images/shorts/shorts4.webp" alt="shorts4">
+                        <div class="shorts-content">
+                            <h4>Nainowale nain 😍 #ytshorts #mukulgain...</h4>
+                            <div class="shorts-views">1.3M views</div>
+                        </div>
+                    </div>
+                    <div class="shorts shorts5">
+                        <img src="images/shorts/shorts5.webp" alt="shorts5">
+                        <div class="shorts-content">
+                            <h4>Akshay क्यों नहीं करना चाहते अपने Film की बात? | Dus...</h4>
+                            <div class="shorts-views">9M views</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shorts-bottom">
+                    <button class="show-more-btn">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- News- container -->
+
+            <div class="news">
+                <h3 class="news-header">Breaking News</h3>
+                <div class="news-container">
+
+                    <div class="card"><img src="images/news-img1.webp" alt="">
+                        <div class="content">
+                            <img class="avtar" src="avtar/channels4_profile (7).jpg" alt="">
+                            <h4 class="tittle">Cyclone Biparjoy LINE Updates: जहां बेकाबू तूफ़ान, वह से Aaj Tak लाइव |
+                                Gujar...</h4>
+                        </div>
+                        <p class="channelname">AAj Tak</p>
+                        <div class="views">18k views . 6 days ago</div>
+                    </div>
+                    <div class="card"><img src="images/news-img2.webp" alt="">
+                        <div class="content">
+                            <img class="avtar" src="avtar/channels4_profile (8).jpg" alt="">
+                            <h4 class="tittle">Biparjoy Cyclone Update: गुजरात से आई बिपरजॉय से तबाही की भयानक तस्वीरे
+                                !...</h4>
+                        </div>
+                        <p class="channelname">News Nation</p>
+                        <div class="views">3K views . 6 days ago</div>
+                    </div>
+                    <div class="card"><img src="images/news-img3.webp" alt="">
+                        <div class="content">
+                            <img class="avtar" src="avtar/channels4_profile (9).jpg" alt="">
+                            <h4 class="tittle">Cyclone Biparjoy: बिपरजॉय ने बजाया 'तबाही का सयराना तेज़ बारीश,
+                                समंदरमें...</h4>
+                        </div>
+                        <p class="channelname">Republic Bharat</p>
+                        <div class="views">3K views . 6 days ago</div>
+
+                    </div>
+
+                </div>
+
+                <div class="news-more">
+                    <button class="show-more-btn">
+                        <i class="fa-solid fa-chevron-down fa-lg"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Bottom Video container -->
+
+            <div class="video-container">
+
+                <div class="card"><img src="images/img7.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (10).jpg" alt="">
+                        <h4 class="tittle">Youth Associate Brother Johnny Lever at Swargate Pune...</h4>
+                    </div>
+                    <p class="channelname">Youth Associates</p>
+                    <div class="views">12M views . 6 days ago</div>
+                </div>
+                <div class="card"><img src="images/img8.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (11).jpg" alt="">
+                        <h4 class="tittle">Ram Siya Ram (Lyrical) Adipurush Prabhas | Sachet-Parampara, Manoj...</h4>
+                    </div>
+                    <p class="channelname">T-Series</p>
+                    <div class="views">5.9M views . 6 days ago</div>
+                </div>
+                <div class="card"><img src="images/img9.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (12).jpg" alt="">
+                        <h4 class="tittle">ChatGPT Tutorial - for all College students & Coders</h4>
+                    </div>
+                    <p class="channelname">Apna College</p>
+                    <div class="views">872K views . 6 days ago</div>
+                </div>
+                <div class="card"><img src="images/img10.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (13).jpg" alt="">
+                        <h4 class="tittle">Deewane Huye Paagal - Superhit Bollywood Comedy - Akshay Kumar - ...</h4>
+                    </div>
+                    <p class="channelname">Shemaroo</p>
+                    <div class="views">2.4M views . 6 days ago</div>
+                </div>
+                <div class="card"><img src="images/img11.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (14).jpg" alt="">
+                        <h4 class="tittle">4 New Developments at Masai</h4>
+                    </div>
+                    <p class="channelname">Masai</p>
+                    <div class="views">549 views . 6 days ago</div>
+                </div>
+                <div class="card"><img src="images/img12.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (15).jpg" alt="">
+                        <h4 class="tittle">Blogging + ChatGpt = $298/month | start a Blog using Chat Gpt today | ...
+                        </h4>
+                    </div>
+                    <p class="channelname">Saddam Kassim</p>
+                    <div class="views">113K views . 2 weeks ago</div>
+                </div>
+                <div class="card"><img src="images/img13.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (16).jpg" alt="">
+                        <h4 class="tittle">Zihaal e miskin (Video) Javad-Moshin | Vishal Mishra, Shreya Ghoshal |
+                            Rohit...</h4>
+                    </div>
+                    <p class="channelname">VYRLOriginals</p>
+                    <div class="views">65M views . 3 weeks ago</div>
+                </div>
+                <div class="card"><img src="images/img14.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (17).jpg" alt="">
+                        <h4 class="tittle">Complete Operating System in 1 Shot || for Placement Interviews</h4>
+                    </div>
+                    <p class="channelname">CodeHelp - Babbar</p>
+                    <div class="views">96K views . 2 weeks ago</div>
+                </div>
+                <div class="card"><img src="images/img15.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (18).jpg" alt="">
+                        <h4 class="tittle">KAVACHAM Full Hindi Dubbed Movie | Bellamkonda Sreenivas, Kajal Aggarw...
+                        </h4>
+                    </div>
+                    <p class="channelname">Genie Ashwini</p>
+                    <div class="views">234M views . 3 years ago</div>
+                </div>
+                <div class="card"><img src="images/img16.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (19).jpg" alt="">
+                        <h4 class="tittle">Big Monetization Update || अब 100 Subscribers & 4000 Hrs Watchtime न...</h4>
+                    </div>
+                    <p class="channelname">Manoj Dey</p>
+                    <div class="views">489K views . 1 days ago</div>
+                </div>
+                <div class="card"><img src="images/img17.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (20).jpg" alt="">
+                        <h4 class="tittle">RJ Naved ने Kapil के साथ मिलकर किसको बनाया 'मुर्गा'? | The Kapil Sharma Show
+                            ...</h4>
+                    </div>
+                    <p class="channelname">SET India</p>
+                    <div class="views">1.7M views . 1 days ago</div>
+                </div>
+                <div class="card"><img src="images/img18.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (21).jpg" alt="">
+                        <h4 class="tittle">2023 FASTEST Way To Learn Java Full Stack RoadMap Complete (Guide + pdf).
+                        </h4>
+                    </div>
+                    <p class="channelname">Genie Ashwani</p>
+                    <div class="views">1.7K views . 8 hours ago</div>
+                </div>
+                <div class="card"><img src="images/img19.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (22).jpg" alt="">
+                        <h4 class="tittle">Romeo Juliet 2.0 (2020) New Released Full HIndi Dubbed movie | Hansika..</h4>
+                    </div>
+                    <p class="channelname">Pen Action</p>
+                    <div class="views">16M views . 3 years ago</div>
+                </div>
+                <div class="card"><img src="images/img20.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (23).jpg" alt="">
+                        <h4 class="tittle">Ai Video Kaise Banaye Mobiel Se | Ai Video Generator free | how to make ai..
+                        </h4>
+                    </div>
+                    <p class="channelname">Sonuji Technical</p>
+                    <div class="views">139K views . 4 days ago</div>
+                </div>
+                <div class="card"><img src="images/img21.webp" alt="">
+                    <div class="content">
+                        <img class="avtar" src="avtar/channels4_profile (24).jpg" alt="">
+                        <h4 class="tittle">Adobe Photoshop Course for Beginners [12 hurs | Photoshop Turorial for All...
+                        </h4>
+                    </div>
+                    <p class="channelname">WsCube Tech</p>
+                    <div class="views">3.4M views . 1 year ago</div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script>
+        document.getElementById("dark").style = `background:black`;
+    // document.getElementById("dark").onmouseover= `background:white`;
+    // document.addEventListener()
+    </script>
+    <!-- <script src="https://kit.fontawesome.com/ef4e39c21a.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>

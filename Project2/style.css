@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #ccc;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.grid_items{
+    
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-template-columns: 300px 300px; */
+    overflow: hidden;
+}
+
+.apply_box{
+    max-width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: 400;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+}
+
+.apply_box h1{
+    margin-bottom: 20px;
+}
+
+.tittle_small{
+    font-size: 20px;
+}
+
+.form{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.colspan{
+    grid-column: 1 / span 2;
+}
+.form textarea{
+    width: 100%;
+}
+
+
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+input,select,textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 15px;
+}
+
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    
+}
+
+button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    /* font-weight: bold; */
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+button:hover{
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+}
+
+
+@media (max-width: 460px) {
+    .grid_items {
+        display: block;
+    }
+  } ;
+  
